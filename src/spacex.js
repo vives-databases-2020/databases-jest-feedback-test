@@ -8,8 +8,32 @@ module.exports = {
     dueDate: new Date(2020, 4, 10),
     questions: [
       {
+        number: 7, question: `
+        What are the amount of launches per year (for every year)
+        `,
+        answer: `
+        
+        `
+      },
+      {
+        number: 9, question: `
+        What mission failed after 150 seconds?
+        `,
+        answer: `
+        
+        `
+      },
+      {
         number: 14, question: `
         What are the mission names (with the mission year) that failed to land on water?
+        `,
+        answer: `
+        
+        `
+      },
+      {
+        number: 19, question: `
+        What is the amount of payload mass that each nationality has launched?
         `,
         answer: `
 
@@ -23,14 +47,6 @@ module.exports = {
 
         `
       },
-      {
-        number: 19, question: `
-        What is the amount of payload mass that each nationality has launched?
-        `,
-        answer: `
-
-        `
-      }
     ]
   }
   
