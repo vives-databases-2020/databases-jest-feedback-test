@@ -8,6 +8,22 @@ module.exports = {
     dueDate: new Date(2020, 4, 10),
     questions: [
       {
+        number: 4, question: `
+        Give a list of all names of the games.
+        `,
+        answer: `
+
+        `
+      },
+      {
+        number: 13, question: `
+        What is the id of the game with the most amount of reviews?
+        `,
+        answer: `
+
+        `
+      },
+      {
         number: 22, question: `
         Give the top 3 of the total amount of money that the users spent on games, and the name of those users
         `,

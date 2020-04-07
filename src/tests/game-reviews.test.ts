@@ -15,6 +15,13 @@ test('question 4', async () => {
     expect(result[9].name).toContain('Crysis')
 });
 
+test('question 13', async () => {
+    const result = await exercise.runQuery(13)
+    expect(result).toHaveLength(1)
+    expect(Object.values(result[0])).toContain(4209)
+    expect(Object.values(result[0])).toContain(11)
+})
+
 test('question 20', async () => {
     const result = await exercise.runQuery(20)
     expect(result).toHaveLength(10)
