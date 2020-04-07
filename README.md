@@ -8,10 +8,10 @@ The following project is a tryout application in order to automatticaly test and
 To get started with this tryout application, clone this project.
 
 ```bash
-git clone ...
+git clone git@github.com:vives-databases-2020/databases-jest-feedback-test.git
 ```
 
-`cd` into the newly cloned directory and run the following commands.
+`cd` into the newly cloned `databases-jest-feedback-test` directory and run the following commands.
 
 Install dependencies to run the application and testing code:
 
